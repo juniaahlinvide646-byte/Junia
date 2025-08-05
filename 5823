@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Projects - Junia Ahlinvide</title>
+  <link rel="stylesheet" href="Styles/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo"><a href="index.html" id="logo-style">Junia</a></h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+<div class="project-card fade-in">
+  <section class="projects-section">
+    <div class="container">
+      <h2 class="slide-in-left">My Projects</h2>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Personal Website</h3>
+          <p>A responsive website made with HTML and CSS to showcase my portfolio.</p>
+          <p><strong>Tech:</strong> HTML, CSS</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Weather App</h3>
+          <p>A JavaScript app that shows weather info using a public API.</p>
+          <p><strong>Tech:</strong> JavaScript, API, HTML, CSS</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Basic Calculator</h3>
+          <p>A simple calculator built with HTML, CSS, and JavaScript.</p>
+          <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        </div>
+      </div>
+
+      <a href="index.html" class="btn-small">← Back to Home</a>
+    </div>
+  </section>
+</div>
+  <footer>
+    <p>&copy; 2025 Junia Ahlinvide — All rights reserved.</p>
+  </footer>
+</body>
+</html>

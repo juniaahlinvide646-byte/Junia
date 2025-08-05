@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me - Junia Ahlinvide</title>
+  <link rel="stylesheet" href="Styles/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo"><a href="index.html" id="logo-style">Junia</a></h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="about-section fade-in">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello! I'm Junia Ahlinvide, a passionate learner and builder who enjoys exploring the world of tech. I love building websites, solving problems, and sharing what I learn with others.</p>
+      
+      <p>I started learning how to code because I enjoy turning ideas into something real and useful. I work with HTML, CSS, JavaScript, and Python — and I'm always trying out new tools and projects.</p>
+
+      <p>Outside of coding, I enjoy reading, creating things, and helping others grow.</p>
+
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python (for scripting and apps)</li>
+        <li>Basic UI/UX Design</li>
+      </ul>
+
+      <blockquote>“Stay curious, and never stop learning.”</blockquote>
+
+      <a href="index.html" class="btn-small">← Back to Home</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Junia Ahlinvide — All rights reserved.</p>
+  </footer>
+</body>
+</html>

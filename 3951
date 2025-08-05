@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Junia Ahlinvide - Home</title>
+  <link rel="stylesheet" href="Styles/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo"><a href="index.html" id="logo-style">Junia</a></h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="fade-in">
+  <section class="hero slide-in-righr">
+    <div class="container">
+      <h2>Hi, I'm Junia 👋</h2>
+      <p>I build creative things with code and share ideas to help others grow.</p>
+      <a href="projects.html" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <section class="about-preview">
+    <div class="container">
+      <div class="about-style">
+        <h3>About Me</h3>
+        <p>I'm a passionate developer and learner who enjoys exploring new technologies and building apps that make life easier.</p>
+        <a href="about.html" class="btn-small">Read More</a>
+      </div>
+    </div>
+  </section> 
+
+  <section class="projects-preview">
+    <div class="container">
+      <h3>Featured Projects</h3>
+      <div class="project-list">
+        <div class="project-item">
+          <h4>Portfolio Website</h4>
+          <p>A clean and responsive personal portfolio site built with HTML and CSS.</p>
+        </div>
+        <div class="project-item">
+          <h4>Blog Platform</h4>
+          <p>A basic blog layout with posts and categories, styled with Flexbox.</p>
+        </div>
+        <div class="project-item">
+          <h4>Weather App</h4>
+          <p>A simple JavaScript app that fetches weather data using an API.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h3>Contact Me</h3>
+      <p>Email: <a href="mailto:junia646@gmail.com">junia646@gmail.com</a></p>
+      <div class="social-links">
+        <a href="#">Instagram</a> | 
+        <a href="#">GitHub</a> | 
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+  
+  <div id="back-to-top">
+    <p id="icon"><a href="#">^</a></p>
+    <p id="top">back to top</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Junia Ahlinvide — All rights reserved.</p>
+  </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Me - Junia Ahlinvide</title>
+  <link rel="stylesheet" href="Styles/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo"><a href="index.html" id="logo-style">Junia</a></h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contact-section fade-in">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you'd like to work together or just say hi, you can reach me below:</p>
+
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="social-links">
+        <p>Or find me on:</p>
+        <a href="#">Instagram</a> |
+        <a href="#">GitHub</a> |
+        <a href="#">LinkedIn</a>
+      </div>
+
+      <a href="index.html" class="btn-small">← Back to Home</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Junia Ahlinvide — All rights reserved.</p>
+  </footer>
+</body>
+</html>
